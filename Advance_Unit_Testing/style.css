@@ -1,0 +1,895 @@
+
+.utmissing{
+   z-index:9999999999999999999999999999999999;
+	position: fixed;
+    background: antiquewhite;
+    width: 100%;
+    right:0px;
+	top:0px;
+    padding: 12px;
+    border: solid #59602b 5px;
+    box-shadow: 5px 5px #8c9890;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+	opacity:1;
+	
+}
+.utmissing:hover{
+	opacity:1;
+	
+}
+span.custhide{
+	display:none;
+}
+.custplusminus{
+	font-size:30px;
+	float:right;
+	top: -10px;
+    position: relative;
+}
+.custplusminus span.custminus{
+	font-size:50px;
+	top: -20px;
+    position: relative;
+}
+.custplusminus span.custplus,.custplusminus span.custminus{
+cursor:pointer !important;
+}
+.custaccordian {height:50px;width:20%;}
+.custaccordian .row1,.custaccordian .row2{
+	display:none;
+}
+.utmissing .row1,.utmissing .row2{
+	border:2px solid #000;
+}
+.utmissing .row1{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.tooltitle{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+	font-size:20px;
+	
+}
+.tooltitle.rowitem{
+	
+   font-size:13px;
+   padding-top:5px;
+	
+}
+.youtubevidplayer span.eleFocusbale{
+	display:table;
+}
+.utmissing button{
+    font-weight: bold;
+    left: auto;
+    top: 0px;
+    margin-left: 10px;
+
+}
+
+.utmissing input{
+	margin:5px;
+	padding: 11px 10px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer !important;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(76, 175, 80);
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+	
+}
+.utmissing input#boxredlines{
+	/* width:100%; */
+}
+.utmissing #custclear{
+	/* left: 50% !important; */
+    /* position: relative !important; */
+    /* transform: translateX(-50%) !important; */
+    /* top: 0 !important; */
+	
+	
+}
+span.eleFocusbale,.c-logo img+span.eleFocusbale,.eleFocusbale{
+	z-index:999999999;
+	background:red;
+	position: relative !important;
+	border: 3px solid red;
+}
+.h1color,.customcolor{
+	color:red !important;font-weight:bold !important;
+}
+
+table#extractMeta tr, table#extractMeta td, table#extractMeta th{
+	border:2px solid #000;
+}
+
+body .givingBackground {
+	background: #CCCC11 !important;
+}
+body.redlines_testing_ #styleObj #thisTagName{
+	font-family: arial;
+}
+body.redlines_testing_ #styleObj #pop-up #ct {
+	font-size: 11px !important;
+	color: #000000;
+	background: #FFFFFF;
+	width: 203px;
+	height: auto;
+	position: relative;
+	font-family: arial;
+}
+body.redlines_testing_ #styleObj #pop-up #ct div{
+	font-size: 11px;
+	color: #000000;
+}
+body.redlines_testing_ #styleObj #pop-up #ct span{
+	font-size: 11px;
+	color: #000000;
+}
+body.redlines_testing_ #styleObj #pop-up #ct #eelem #ep{
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+	margin-top: 5px;
+	line-height: 13px;
+}
+body.redlines_testing_ #styleObj #pop-up #ct table td{
+	font-size: 11px;
+	padding-left: 10px;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+body.redlines_testing_ #styleObj #pop-up #ct table td b {
+	color: #0078D7;
+}
+.utmissing input[disabled]{
+	cursor:default!important;
+	opacity:0.4;
+}
+#p1 {
+	border-left: 1px solid red;
+}
+#emargins {
+	background: #F9CC9D;
+	border: 1px dashed #000000;
+	width: 200px;
+	height: 200px;
+}
+#eborders {
+	background: #FDDD9B;
+	border: 1px solid #000000;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 2;
+	left: 25px;
+	top: 25px;
+}
+#epaddings {
+	background: #C2CF8A;
+	border: 1px dashed #000000;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 2;
+	left: 50px;
+	top: 50px;
+}
+#eelem {
+	background: #8BB5C0;
+	border: 1px solid #000000;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	z-index: 2;
+	left: 75px;
+	top: 75px;
+}
+#mt, #mb, #mr, #ml {
+	position: absolute;
+}
+#mt{
+	top: 5px;
+	left: 90px;
+}
+#mb{
+	top: 175px;
+	left: 90px;
+}
+#mr{
+	top: 90px;
+	left: 180px;
+}
+#ml{
+	top: 90px;
+	left: 4px;
+}
+#bt, #bb, #br, #bl {
+	position: absolute;
+}
+#bt{top: 5px;
+	left: 65px;
+}
+#bb{
+	top: 127px;
+	left: 65px;
+}
+#br{
+	top: 65px;
+	left: 130px;
+}
+#bl{top: 65px;
+	left: 2px;
+}
+#pt, #pb, #pr, #pl {
+	position: absolute;
+}
+#pt{
+	top: 5px;
+	left: 40px;
+}
+#pb{
+	top: 80px;
+	left: 40px;
+}
+#pr{
+	top: 40px;
+	left: 80px;
+}
+#pl{
+	top: 40px;
+	left: 4px;
+}
+#eelem #ep{
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.buttonvisited{
+	color:gray !important;
+}
+
+.broken-link, .broken-link:hover, .broken-link:active, .broken-link:focus {
+    text-decoration: line-through;
+}
+
+/* Invert the luminance iff any of the "delumine" styles are selected. */
+html[hc^="delumine"] {
+  -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
+}
+html[hc^="delumine"][hc*="kill_background"],
+html[hc^="delumine"][hc*="kill_background"] body {
+  background-image: none !important;
+  background-color: #FFF !important;
+  color: #000 !important;
+}
+html[hc^="noinvert"][hc*="kill_background"],
+html[hc^="noinvert"][hc*="kill_background"] body {
+  background-image: none !important;
+  background-color: #000 !important;
+  color: #FFF !important;
+}
+
+html[hc^="delumine"] #deluminate_backdrop {
+    background-color: white;
+}
+#deluminate_backdrop {
+    background-color: black;
+}
+
+/* Override the above with a low-contrast version if selected. */
+html[hc^="delumine"][hc*="low-contrast"] {
+  -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(85%);
+}
+
+/* Lower the contrast without inverting the luminance. */
+html[hc^="noinvert-low-contrast"] {
+  -webkit-filter: contrast(85%);
+}
+
+/* Lower the brightness without inverting the luminance. */
+html[hc^="noinvert-dim1"] {
+  -webkit-filter: brightness(90%);
+}
+html[hc^="noinvert-dim2"] {
+  -webkit-filter: brightness(80%);
+}
+html[hc^="noinvert-dim3"] {
+  -webkit-filter: brightness(70%);
+}
+html[hc^="noinvert-dim4"] {
+  -webkit-filter: brightness(60%);
+}
+html[hc^="noinvert-dim5"] {
+  -webkit-filter: brightness(50%);
+}
+
+/* The low-contrast version of the above. */
+html[hc^="noinvert-dim1"][hc*="low-contrast"] {
+  -webkit-filter: contrast(85%) brightness(90%);
+}
+html[hc^="noinvert-dim2"][hc*="low-contrast"] {
+  -webkit-filter: contrast(85%) brightness(80%);
+}
+html[hc^="noinvert-dim3"][hc*="low-contrast"] {
+  -webkit-filter: contrast(85%) brightness(70%);
+}
+html[hc^="noinvert-dim4"][hc*="low-contrast"] {
+  -webkit-filter: contrast(85%) brightness(60%);
+}
+html[hc^="noinvert-dim5"][hc*="low-contrast"] {
+  -webkit-filter: contrast(85%) brightness(50%);
+}
+
+/* Workaround for blurriness on high dpi displays. See Chromium issue 156019. */
+html[hc*="hw_accel"] {
+  -webkit-backface-visibility: hidden;
+}
+
+/* Uninvert select items within the document.
+ * Note: Chrome clears -webkit-filter on all full-screen ancestor tags, killing
+ * the top-level delumination filter. This is usually desirable (e.g., for
+ * Youtube videos), so instead of fighting it, just avoid trying to "uninvert"
+ * images in this scenario.
+ */
+
+/* For the -noimg variant, uninvert all images. */
+html[hc*="delumine-noimg"]:not(*:-webkit-full-screen-ancestor) :-webkit-any(
+img,
+/* Check for "url" in the style attribute, which is usually a fancy way to specify an image */
+[style*="url"]:not([style*="transparent"]),
+[deluminate_imageType],
+canvas,
+embed,
+object,
+video) {
+  -webkit-filter: contrast(95%) brightness(95%) hue-rotate(180deg) invert();
+}
+/* Avoid performing the uninversion process on anything that is a descendant of
+ * something uninverted. */
+html[hc*="delumine-noimg"]:not(*:-webkit-full-screen-ancestor) :-webkit-any(
+img,
+[style*="url"]:not([style*="transparent"]),
+[deluminate_imageType],
+canvas,
+embed,
+object,
+video) :-webkit-any(
+img,
+[style*="url"]:not([style*="transparent"]),
+[deluminate_imageType],
+canvas,
+embed,
+object,
+video) {
+  -webkit-filter: none;
+}
+/* Reinvert iframes inside tags with background-images specified. */
+html[hc*="delumine-noimg"]:not(*:-webkit-full-screen-ancestor) :-webkit-any(
+img,
+/* Check for "url" in the style attribute, which is usually a fancy way to specify an image */
+[style*="url"]:not([style*="transparent"]),
+[deluminate_imageType],
+canvas,
+embed,
+object,
+video) iframe {
+  -webkit-filter: contrast(95%) brightness(95%) hue-rotate(180deg) invert();
+}
+
+/* The "smart" filter is more selective about what to uninvert. */
+html[hc*="delumine-smart"]:not(*:-webkit-full-screen-ancestor) body :-webkit-any(
+	/* Leave PNG and GIF format images inverted, since they usually are
+	 * identifiable even when inverted. */
+	img:not([src$=".png"]):not([src$=".gif"]):not([src$=".PNG"]):not([src$=".GIF"]):not([src^="data:image"]):not([src^="blob:"]),
+	[itemprop="photo"],
+	[itemprop="image"],
+	[role="img"],
+	[data-src],
+	[data-canonical-src],
+	[src^="data:image/jpeg"],
+	[deluminate_imageType="jpg"],
+	[deluminate_imageType="animated gif"],
+	[style*=".jpg"],
+	[style*=".JPG"],
+	[style*=".jpeg"],
+	[style*=".JPEG"],
+	[style*=".webp"],
+	[style*=".WEBP"],
+	/* It's usually not desireable to invert these tags. */
+	canvas:not([src^="data:image/png;base64"]),
+	embed:not([type$="pdf"]),
+	object,
+	video):not([aria-hidden="true"]) {
+  -webkit-filter: contrast(95%) brightness(95%) hue-rotate(180deg) invert();
+}
+/* Avoid performing the uninversion process on anything that is a descendant of
+ * something uninverted. */
+html[hc*="delumine-smart"]:not(*:-webkit-full-screen-ancestor) body :-webkit-any(
+	img:not([src$=".png"]):not([src$=".gif"]):not([src$=".PNG"]):not([src$=".GIF"]):not([src^="data:image"]):not([src^="blob:"]),
+	[itemprop="photo"],
+	[itemprop="image"],
+	[role="img"],
+	[data-src],
+	[data-canonical-src],
+	[src^="data:image/jpeg"],
+	[deluminate_imageType="jpg"],
+	[style*=".jpg"],
+	[style*=".JPG"],
+	[style*=".jpeg"],
+	[style*=".JPEG"],
+	[style*=".webp"],
+	[style*=".WEBP"],
+	canvas:not([src^="data:image/png;base64"]),
+	embed:not([type$="pdf"]),
+	object,
+	video):not([aria-hidden="true"]) :-webkit-any(
+	img:not([src$=".png"]):not([src$=".gif"]):not([src$=".PNG"]):not([src$=".GIF"]):not([src^="data:image"]):not([src^="blob:"]),
+	[itemprop="photo"],
+	[itemprop="image"],
+	[role="img"],
+	[data-src],
+	[data-canonical-src],
+	[src^="data:image/jpeg"],
+	[deluminate_imageType="jpg"],
+	[style*=".jpg"],
+	[style*=".JPG"],
+	[style*=".jpeg"],
+	[style*=".JPEG"],
+	[style*=".webp"],
+	[style*=".WEBP"],
+	canvas:not([src^="data:image/png;base64"]),
+	embed:not([type$="pdf"]),
+	object,
+	video):not([aria-hidden="true"]) {
+  -webkit-filter: none;
+}
+/* Reinvert iframes inside tags with background-images specified. */
+html[hc*="delumine-smart"]:not(*:-webkit-full-screen-ancestor) body :-webkit-any(
+	img:not([src$=".png"]):not([src$=".gif"]):not([src$=".PNG"]):not([src$=".GIF"]):not([src^="data:image"]):not([src^="blob:"]),
+	[itemprop="photo"],
+	[itemprop="image"],
+	[role="img"],
+	[data-src],
+	[data-canonical-src],
+	[src^="data:image/jpeg"],
+	[deluminate_imageType="jpg"],
+	[style*=".jpg"],
+	[style*=".JPG"],
+	[style*=".jpeg"],
+	[style*=".JPEG"],
+	[style*=".webp"],
+	[style*=".WEBP"],
+	canvas:not([src^="data:image/png;base64"]),
+	embed:not([type$="pdf"]),
+	object,
+	video):not([aria-hidden="true"]) iframe {
+  -webkit-filter: contrast(95%) brightness(95%) hue-rotate(180deg) invert();
+}
+
+/* Force text to plain black text on white (which, when inverted, is the
+ * preferable white text on black. */
+html[hc*="delumine"][hc*="force_text"] input[type="text"] {
+  background-image: none !important;
+  background-color: white !important;
+  color: black !important;
+}
+
+/* ...unless it's uninverted because of a background image. Then set it
+ * directly to white text on black. */
+html[hc*="delumine-smart"][hc*="force_text"] input[type="text"]:-webkit-any(
+	[src^="data:image/jpeg"],
+	[deluminate_imageType="jpg"],
+	[style*=".jpg"],
+	[style*=".JPG"],
+	[style*=".jpeg"],
+	[style*=".JPEG"]) {
+  background-image: none !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+html[hc*="delumine-noimg"][hc*="force_text"] input[style*="url"]:-webkit-any(
+  [type="text"], [dir]):not([style*="transparent"]) {
+  background-image: none !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Crude workaround for my inability to inject deluminate into preview iframes
+ * on the new tab page. */
+html[hc*="delumine-noimg"] iframe[src^="chrome-search://most-visited"],
+html[hc*="delumine-smart"] iframe[src^="chrome-search://most-visited"] {
+  -webkit-filter: contrast(95%) brightness(95%) hue-rotate(180deg) invert();
+}
+
+/* Stupid workaround just for Medium's stupid canvas which, as far as I can
+ * tell, has no value whatsoever. */
+html[hc*="delumine-noimg"] body canvas.canvas-renderer,
+html[hc*="delumine-smart"] body canvas.canvas-renderer {
+  -webkit-filter: none !important;
+}
+
+ .grab {
+      cursor: hand;
+      cursor: grab;
+      cursor: -moz-grab;
+      cursor: -webkit-grab;
+    }
+    .grabbing {
+      cursor: grabbing;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+
+    }
+.highlight-failed-element {
+    color: red;
+    background-color:yellow !important;
+}
+
+.highlight-anchor {
+    color: red;
+    background-color:yellow !important;
+}
+.highlight-image {
+     background-color:yellow !important;
+}
+.acc-element-result-fail {
+    color: red;
+    background-color:yellow !important;
+}
+.acc-img{
+    width:100%;
+    /*margin:10px 10px;*/
+    height:auto;
+    display:inline;
+    float:left;
+
+}
+.hcl-img{
+    margin:10px 10px;
+    height:20px;
+    display:inline;
+    float:right;
+}
+.acc-chart {
+     background-color:#005986;
+   position:absolute;
+    width: 550px;
+    height:auto;
+    padding-bottom: 20px;
+    color: #FFF; 
+    overflow:hidden;
+    border:1px solid #888;
+    z-index:9999;
+    top: 6%;
+    left: 50%;
+    margin-left: -250px; /*half width*/
+    /* margin-top: -250px;half height*/
+
+
+}
+
+    .acc-chart a.close:before,
+    .acc-chart a.close:after {
+        background-color:#ffffff;
+        opacity:1 !important;
+    }
+
+
+.acc-options {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    color:#fff;
+    font-size:12px;
+    font-family: SegoeUI;
+    /*position: fixed;
+    right:0px;*/
+}
+
+.acc-btn {
+    padding: 5px;
+    border: 1px solid chartreuse;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size:12px;
+     font-family: SegoeUI;
+   
+}
+.acc-btn:first-child{
+     margin-left:10px;
+}
+.acc-pre {
+    border: 2px solid #A9A9A9;
+    color: #FFF;
+    border-radius: 5px;
+    background-color:#204349;
+    padding: 5px;
+    font-size: 11px;
+     font-family: SegoeUI;
+}
+
+.acc-btn:hover {
+    background-color: #FFF;
+    cursor: pointer;
+    color:#204349;
+}
+
+.acc-errors {
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);*/
+    border-radius: 2px;
+    background-color: #FFF;
+    color: red;
+    font-size:13px;
+     font-family: SegoeUI;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    float: none;
+    height: 50px;
+}
+.acc-errors ul{margin-left:26px;margin-right:10px;margin-top:40px;}
+.acc-errors ul li{
+	list-style:disc!important;
+	font-size:13px!important;
+}
+.acc-errors ul li a{
+	color:blue;
+	text-decoration:underline;
+}
+.acc-stats{
+    float:none;
+    width:90%;
+    color:#204349;
+    margin-left: auto;
+    margin-right: auto;
+     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    background-color: #FFF;
+    font-size:13px;
+       font-family: SegoeUI;
+    display:none;
+}
+.acc-stats p{margin:5px;padding:5px;}
+
+.acc-report-table, .acc-report-table td, .acc-report-table th {    
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.acc-report-table {
+    border-collapse: collapse;
+    width: 100%;
+       font-family: SegoeUI;
+    
+}
+
+.acc-report-table td a {
+    text-decoration:underline;
+}
+
+.acc-report-table td a:hover {
+    text-decoration:underline;
+     color:#0094ff;
+}
+
+.acc-report-table th, .acc-report-table td {
+    padding: 4px;
+       font-family: SegoeUI;
+}
+#acc-pop-msg {
+    color: #3CB371;
+    padding: 0px 10px;
+    font-weight:600;
+	margin-top:8px;
+	float:left;
+    font-size:13px;
+     font-family: SegoeUI;
+}
+.acc-element-result-fail{
+    color:red;
+    
+}
+.acc-element-result-pass{
+    color:green;
+
+}
+
+.acc-element-result-fail span
+{
+    background: url('chrome-extension://__MSG_@@extension_id__/fail-trans.png') center no-repeat;
+     width:25px;
+    height:25px;
+    display:block;
+    border-radius:50%;
+    background-size: 25px 25px;
+    float:right;
+}
+.acc-element-result-pass span {
+    background: url('chrome-extension://__MSG_@@extension_id__/pass-trans.png') center no-repeat;
+    width:25px;
+    height:25px;
+     display:block;
+      border-radius:50%;
+      background-size: 25px 25px;
+      float:right;
+}
+#mainContentClassName {
+    color:#000000;
+    display:block;
+    margin-top:5px;
+}
+.acc-options lable {
+     color:#ffffff;
+    display:block;
+}
+.eleFocusbale {
+    background: rgb(255, 239, 213); 
+    padding: 1px; 
+    border: 1px solid rgb(0, 0, 128); 
+    color: rgb(0, 0, 128); 
+    font-family: arial; 
+    font-size: x-small; 
+     font-family: SegoeUI;
+    font-weight: bold; 
+    display: inline; 
+    position: relative; 
+    z-index: 1000;
+    height:16px;
+}
+.clsfocusable {
+    border:1px dotted green;
+}
+
+.clsred {
+    background: red; 
+    padding: 1px; 
+    border: 1px solid rgb(0, 0, 128); 
+    color: rgb(0, 0, 128); 
+    font-family: arial; 
+    font-size: medium;
+        font-weight: bold; 
+    display: inline; 
+    position: relative; 
+    z-index: 1000;
+    transform:translateX(-20%);
+}
+.clsgreen {
+    background: greenyellow; 
+    padding: 1px; 
+    border: 1px solid rgb(0, 0, 128); 
+    color: rgb(0, 0, 128); 
+    font-family: arial; 
+    font-size: medium;
+    font-weight: bold; 
+    display: inline; 
+    position: relative; 
+    z-index: 1000;
+    transform:translateX(-20%);
+}
+
+.clsyellow {
+    background: yellow; 
+    padding: 1px; 
+    border: 1px solid rgb(0, 0, 128); 
+    color: rgb(0, 0, 128); 
+    font-family: arial; 
+    font-size: medium;
+    font-weight: bold; 
+    display: inline; 
+    position: relative; 
+    z-index: 1000;
+    transform:translateX(-20%);
+}
+.clsimgborder {
+    border:3px solid #FF2400;
+}
+
+
+.accordion, .accordion * {
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+	box-sizing:border-box;
+}
+
+.accordion {
+	overflow:hidden;
+	box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+	border-radius:3px;
+	background:#f7f7f7;
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+	width:100%;
+	display:inline-block;	
+    font-family:SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	/* Type */
+	font-size:13px;
+	color:#FF0000 !important;
+}
+
+.icon-arrow::before{
+    content:"\203A";
+   font-size: 20px;
+   margin-right:5px;
+
+}
+
+
+.accordion-section-title.active, .accordion-section-title:hover {
+	background:#4c4c4c;
+	/* Type */
+	text-decoration:none;
+    color:#fff !important;
+}
+
+.accordion-section:last-child .accordion-section-title {
+	border-bottom:none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+	padding:15px;
+	display:none;
+}
+.accordianShow {
+    display:block !important;
+}
+
+
+.close {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.4;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 15px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+.accordianShow ul li{
+     list-style-type: square;
+     width:100%;
+}
+
+.accordianShow ul li a:hover{
+     text-decoration:underline;
+     color:#0094ff;
+}
+
+.accordianShow ul {
+     margin:0;
+}

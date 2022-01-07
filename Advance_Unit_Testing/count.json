@@ -1,0 +1,28 @@
+{
+   "panelcomponents": [
+      "hero",
+      "feature"
+   ],
+   "panelcomponentsdetails": [
+      {
+         "name": "hero",
+         "chardetails": [
+            {
+               "heading": "24",
+               "subheading": "86",
+               "cta": "10"
+            }
+         ]
+      },
+      {
+         "name": "feature",
+         "chardetails": [
+            {
+               "heading": "12",
+               "subheading": "66",
+               "cta": "15"
+            }		
+         ]
+      }
+   ]
+}

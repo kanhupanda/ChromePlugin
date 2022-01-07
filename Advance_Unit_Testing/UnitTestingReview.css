@@ -1,0 +1,18 @@
+﻿.eleFocusbale {
+    background: rgb(255, 239, 213); 
+    padding: 1px; 
+    border: 1px solid rgb(0, 0, 128); 
+    color: rgb(0, 0, 128); 
+    font-family: arial; 
+    font-size: 8px; 
+     font-family: SegoeUI;
+    font-weight: bold; 
+    display: inline; 
+    position: relative; 
+    z-index: 1000;
+    height:14px;
+    bottom:25px;
+}
+.clsfocusable {
+    border:1px dotted green;
+}

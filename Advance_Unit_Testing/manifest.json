@@ -1,0 +1,23 @@
+{
+    "name": "Quick scan of redlines",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description" : "Helps to unit test pages.",
+    "browser_action": {
+		"default_title": "Quick scan of redlines"   
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "chrome_url_overrides" : {
+        
+    },
+
+ "permissions": ["tabs", "<all_urls>"],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["jquery.js","content.js","screenshot.js","link-checker.js"],
+	"css": ["UnitTestingReview.css"],
+	"css":["style.css","codechecker.css"]
+    }]
+}

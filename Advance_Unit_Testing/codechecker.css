@@ -1,0 +1,67 @@
+body.extract .appended{
+	text-align: left;
+    margin: 20px 0px 0px 30px;
+}
+body.extract .appended table tr > td:first-child{
+	color: #FF0000;
+	width: auto;
+}
+body.extract .addedmine {
+	color: #FF0000;
+	display: block;
+	line-height: 30px;
+}
+body.extract .appended table {
+    border-collapse: collapse;
+	background: #FFFFFF !important;
+}
+body.extract .appended table table,
+body.extract .appended table th,
+body.extract .appended table td,#extractattr th,#extractattr td,#extractattr table {
+    border: 1px solid black;
+	padding: 2px 5px;
+}
+
+/* .codecheckr{ */
+    /* z-index:999999; */
+/* position: fixed; */
+    /* background: antiquewhite; */
+    /* width: 550px; */
+    /* height: 160px; */
+    /* right:0px; */
+/* top:0px; */
+/* margin: 10px; */
+    /* padding: 12px; */
+    /* border: solid #59602b 5px; */
+    /* box-shadow: 5px 5px #8c9890; */
+    /* box-sizing: border-box; */
+    /* border-radius: 10px; */
+    /* font-family: sans-serif; */
+    /* font-size: 13px; */
+/* } */
+
+
+#txtitemsearch{
+/*left: 30%;
+    position: relative;
+    top: 20px;*/
+    font-weight: bold;
+    left: auto;
+    top: 0px;
+    margin-left: 10px;
+
+}
+.txtnote {
+    margin-top:30px;
+}
+.txtnote ol {
+    margin-left:10px;
+}
+
+#extractattr td {
+    width: 25%;
+    word-break: break-word;
+}
+#extractattr th {
+   background-color:grey;
+}
